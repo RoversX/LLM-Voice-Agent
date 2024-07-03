@@ -2,9 +2,9 @@
 
 ### Enter your query, get a streaming response from Ollama, and generate audio using GPT-SoVITS. The conversation history is maintained for context, support markdown.
 
-![img](https://github.com/RoversX/Ollama-Voice-Agent/assets/85817538/f4f81bad-7a1d-443a-810f-31fe0fb19e00)
-
 **English** | [**中文简体**](./docs/cn/README.md) | [**日本語**](./docs/ja/README.md)
+
+![img](https://github.com/RoversX/Ollama-Voice-Agent/assets/85817538/f4f81bad-7a1d-443a-810f-31fe0fb19e00)
 
 ## Table of Contents
 
