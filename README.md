@@ -4,7 +4,7 @@
 
 ![img](https://github.com/RoversX/Ollama-Voice-Agent/assets/85817538/f4f81bad-7a1d-443a-810f-31fe0fb19e00)
 
-
+**English** | [**中文简体**](./docs/cn/README.md) | [**日本語**](./docs/ja/README.md)
 
 ## Table of Contents
 
@@ -82,6 +82,7 @@ ollama serve
 ```shell
 python api.py -dr "sample_audio/Samantha.MP3" -dt "If I could paint a dream on the vast canvas of the world, it would shimmer like a star studded sky." -dl "en"
 ```
+https://raw.githubusercontent.com/RVC-Boss/GPT-SoVITS/main/api.py
 
 These can be configured in the `ollama.py` script.
 
