@@ -23,7 +23,7 @@ This project leverages two key technologies:
 
 The integration of these technologies allows for an interactive, voice-based dialogue system with streaming audio capabilities.
 
-This is a test project that only provides the most basic functions. You can add langchain and other functions as needed. Meanwhile, the streaming function of GPT-SOVITS is not fixed.
+This is a test project that only provides the most basic functions. You can add langchain,whisper and other functions as needed. Meanwhile, the streaming function of GPT-SOVITS is not fixed.
 
 ## Installation
 
