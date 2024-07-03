@@ -2,7 +2,7 @@
 
 ### クエリを入力し、Ollama からストリーミングレスポンスを取得して、GPT-SoVITS を使用してオーディオを生成します。会話履歴はコンテキストのために保持され、Markdown をサポートします。
 
-[**English**](../README.md) | [**中文简体**](../docs/cn/README.md) | **日本語**
+[**English**](../../README.md) | [**中文简体**](../cn/README.md) | **日本語** 
 
 ![img](https://github.com/RoversX/Ollama-Voice-Agent/assets/85817538/f4f81bad-7a1d-443a-810f-31fe0fb19e00)
 
