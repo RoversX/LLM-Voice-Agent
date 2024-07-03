@@ -2,7 +2,7 @@
 
 ### 输入您的查询，从 Ollama 获取流式响应，并使用 GPT-SoVITS 生成音频。会话历史会保留以供上下文参考，支持 Markdown。
 
-[**English**]((./README.md)) | **中文简体** | [**日本語**](./docs/ja/README.md)
+[**English**](../../README.md) | **中文简体** | [**日本語**](../ja/README.md) 
 
 ![img](https://github.com/RoversX/Ollama-Voice-Agent/assets/85817538/f4f81bad-7a1d-443a-810f-31fe0fb19e00)
 
