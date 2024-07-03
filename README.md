@@ -2,7 +2,8 @@
 
 ### Enter your query, get a streaming response from Ollama, and generate audio using GPT-SoVITS. The conversation history is maintained for context, support markdown.
 
-<img width="1653" alt="Screenshot 2024-07-03 at 4 38 10 PM" src="https://github.com/RoversX/LLM-Voice-Agent/assets/85817538/5494729e-3ab3-4227-81d7-7c4d081a9450">
+![img](https://github.com/RoversX/Ollama-Voice-Agent/assets/85817538/f4f81bad-7a1d-443a-810f-31fe0fb19e00)
+
 
 
 ## Table of Contents
@@ -27,8 +28,8 @@ The integration of these technologies allows for an interactive, voice-based dia
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/RoversX/Ollama-Voice-Agent.git
+   cd Ollama-Voice-Agent
    ```
 
 2. **Create a Virtual Environment**:
@@ -60,7 +61,27 @@ The integration of these technologies allows for an interactive, voice-based dia
 ## Configuration
 
 - **OLLAMA_API_URL**: The URL for the Ollama API. 
-- **GPT_SOVITS_API_URL**: The URL for the GPT-SoVITS API. 
+- **GPT_SOVITS_API_URL**: The URL for the GPT-SoVITS API.
+
+These can be configured in the `ollama.py` script.
+
+Example
+```bash
+OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate"
+GPT_SOVITS_API_URL = "http://127.0.0.1:9880/"
+```
+
+**Start Ollama**
+
+```shell
+ollama serve
+```
+
+**Using GPT-SOVITS API**
+
+```shell
+python api.py -dr "sample_audio/Samantha.MP3" -dt "If I could paint a dream on the vast canvas of the world, it would shimmer like a star studded sky." -dl "en"
+```
 
 These can be configured in the `ollama.py` script.
 
